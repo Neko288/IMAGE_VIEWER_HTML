@@ -156,7 +156,7 @@ img{
   transform: scale(1, 1);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .grid {
     column-count: 3;
     grid-template-rows: 0px 0px;
