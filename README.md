@@ -1,6 +1,7 @@
 # IMAGE VIEWER.html
 
-### ブラウザで使う画像ビューアです。
+### This is an image viewer that displays a list of images in a folder. It runs on the browser.フォルダ内の画像を一覧で表示する画像ビューアです。ブラウザ上で動きます
+フォルダ内の画像を一覧で表示する画像ビューアです。ブラウザ上で動きます。エクスプローラーの一覧表示でもいいのではと言われたら反論できません。
 
 ## 使い方
 html(Viewer)フォルダの中のindex.htmlをクリックして起動できます。
