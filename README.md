@@ -2,25 +2,17 @@
 
 ### This is an image viewer that displays a list of images in a folder. It runs on the browser.
 ### フォルダ内の画像を一覧で表示する画像ビューアです。ブラウザ上で動きます
-フォルダ内の画像を一覧で表示する画像ビューアです。ブラウザ上で動きます。エクスプローラーの一覧表示でもいいのではと言われたら反論できません。
+フォルダ内の画像を一覧で表示する画像ビューアです。ブラウザ上で動きます。エクスプローラーの一覧表示でもいいのではと言われたら反論できません(こちらの方がすこしおしゃれかもしれません)
 
-## 使い方
-html(Viewer)フォルダの中のindex.htmlをクリックして起動できます。
+## how to use
+1. Click write_txt_image.py and enter the full path of the folder you want to list.
+2. Click (1641695438.2284553)-index.html in the html(Viewer) folder to start the viewer in your browser.
 
-### 任意のフォルダを開く
-write_txt_image.pyをクリックしてビューアで見たい画像があるフォルダの完全パスを入力してください。Enterで実行するとhtml(Viewer)フォルダの中に「1641695438.2284553-index.html」こんな感じのファイルができてると思うのでそれをクリックしてください。クリックしたらビューアを起動できます。
+## need
+Python3 and webbrowser.
 
+## remarks
+The "media" folder in the html(Viewer) folder and the "index.html" that is included from the beginning are for starting the sample, so there is no problem in deleting them.
 
-## ちなみに
-html(Viewer)フォルダの中にあるmediaフォルダと最初から入っているindex.htmlは削除してもらって構いません。
-
-## 必要なもの
-
-Python(3)
-ブラウザ(FirefoxとEdgeのみ動作確認)
-
-## 注意点
-あまりにも画像が多いフォルダを画像ビューアで見ようとすると、ブラウザがとんでもなく重たくなり、表示されるまで数分かかることもあります。
-
-## 仕組み
-画像があるフォルダ内の画像のパスをすべてPythonで集めます。それを.htmlに書き込むことによって画像ビューアのように振舞わせることができます。
+## be careful with folders that have too many images
+If you try to view a folder with too many images in the image viewer, the browser will become extremely slow and it may take several minutes for the images to be displayed.
