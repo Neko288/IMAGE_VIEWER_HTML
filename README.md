@@ -12,8 +12,5 @@
 ## need
 Python3 and webbrowser.
 
-## remarks
-The "media" folder in the html(Viewer) folder and the "index.html" that is included from the beginning are for starting the sample, so there is no problem in deleting them.
-
 ## be careful with folders that have too many images
 If you try to view a folder with too many images in the image viewer, the browser will become extremely slow and it may take several minutes for the images to be displayed.
