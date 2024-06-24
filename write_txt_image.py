@@ -1,4 +1,4 @@
-import os,re,sys,time,webbrowser
+import os,webbrowser
 
 
 folder_path = input('Full path of the folder you want to VIEW : ')+r'\\'
@@ -17,9 +17,9 @@ html_txt_second = ("</div><script>document.addEventListener('DOMContentLoaded', 
 for i in all_img:
   all_path+= '<img src="'+'file://'+i+'"'+' data-action="zoom" class="zoom"'+'alt="'+i+'">'+'\n'
 
-file_name = os.path.dirname(__file__)+'\\html(Viewer)\\'+str(time.time())+r'-index.html'
-with open(file_name,mode='w' ,encoding="utf-8") as f:
-  f.write(html_txt_one+all_path+html_txt_second)
-print('END')
+file_name = os.path.dirname(__file__)+'\\html(Viewer)\\'+os.path.basename(os.path.normpath(folder_path))+r'-viewer.html'
+
+with open(file_name, mode='w', encoding="utf-8") as f:
+    f.write(html_txt_one + all_path + html_txt_second)
 
 webbrowser.open('file://' + file_name)
