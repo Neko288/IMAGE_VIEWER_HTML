@@ -2,7 +2,7 @@
 
 ### This is an image viewer that displays a list of images in a folder. It runs on the browser.
 ### フォルダ内の画像を一覧で表示する画像ビューアです。ブラウザ上で動きます
-フォルダ内の画像を一覧で表示する画像ビューアです。ブラウザ上で動きます。エクスプローラーの一覧表示でもいいのではと言われたら反論できません(こちらの方がすこしおしゃれかもしれません)
+フォルダ内の画像を一覧で表示する画像ビューアです。ブラウザ上で動きます。エクスプローラーの一覧表示でもいいのではと言われたら反論できません
 ![image](https://github.com/Neko288/imgviewer_allimage_in_folder/assets/79035426/f5e38333-bc60-48ce-94ca-fc5095d7ff33)
 
 ## how to use
